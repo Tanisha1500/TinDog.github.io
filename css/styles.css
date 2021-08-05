@@ -1,0 +1,263 @@
+body{
+  font-family: "Montserrat";
+}
+
+h1,h2,h3,h4,h5,h6
+{
+  font-family:"Montserrat";
+}
+
+h1    //Incase of heirchical selectors it is parent class(space) child class
+      //Incase space is not given then .container.title then title and container should be in the same html element
+{
+
+  line-height: 1.5;
+  font-size:3rem;
+  font-weight: 900;
+  color: white;
+
+}
+
+
+
+/*h2
+{
+  line-height: 1.5;
+
+  font-weight: 700;
+  font-size: 3rem;
+} */
+
+h3
+{
+
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.section heading
+{
+
+  line-height: 1.5;
+
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+
+
+
+
+
+#title
+{
+  background-color: #ff4c68;
+}
+.navbar-nav{
+  margin-left: auto;
+}
+
+.container-fluid{
+padding: 3% 15% 7%;
+}
+
+
+
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar
+{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item
+{
+  padding: 0 18px;
+}
+.nav-link
+{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Download button */
+.download-button{
+  margin: 5% 3% 5% 0%;
+}
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+
+
+}
+.position
+{
+  position: relative;
+}
+
+
+
+.feature-box
+{
+  text-align: center;
+  padding:4.5%;
+
+}
+
+#features
+{
+  padding: 7% 15%;
+  background-color:white;
+  position: relative;
+  z-index: 1;
+
+
+
+
+
+}
+.para
+{
+  color: #8f8f8f;
+}
+
+i
+{
+  color:#ef8172;
+  padding-bottom: 3%;
+
+
+}
+.fa-heart:hover
+{
+  color: #ff4c68;
+}
+.fa-check-circle:hover
+{
+  color: #ff4c68;
+}
+.fa-bullseye:hover
+{
+  color: #ff4c68;
+}
+.feature-box
+{
+  padding-top:3%;
+}
+
+/* Testimonial Section */
+#testimonials
+{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+
+.testimonial-text
+{
+  line-height: 1.5;
+
+  font-weight: 700;
+  font-size: 3rem;
+}
+#press
+{
+  text-align: center;
+  background-color: #ef8172;
+}
+.logo
+{
+  width: 15%;
+  margin: 20px 20px 30px;
+}
+
+/* Pricing section */
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.pricing-column
+{
+  padding: 3% 2%;
+}
+.price-text
+{
+  line-height: 1.5;
+
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+@media (max-width:1028px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title
+  {
+    text-align: center;
+  }
+
+}
+
+/*Before Footer*/
+#cta
+{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+  line-height: 1.5;
+  color: #fff;
+
+}
+
+.cta-heading
+{
+  font-weight: 900;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+
+.social
+{
+  color: white;
+}
+
+.social-black
+{
+  color: black;
+}
+/*Footer section*/
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.social-icon
+{
+  margin: 20px 10px;
+  color: black;
+}
